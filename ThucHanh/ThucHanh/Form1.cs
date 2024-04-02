@@ -60,7 +60,7 @@ namespace ThucHanh
             mail.To.Add(new MailAddress(tbUsername.Text));
             mail.IsBodyHtml = true;
             mail.Subject = "Reset Password";
-            mail.Body = "I forgot my password, I want to reset it, Your new pass: dang2415";
+            mail.Body = "Your new pass: dang2415";
 
             // Send mail
             smtp.Send(mail);
@@ -164,7 +164,7 @@ namespace ThucHanh
             // Write user information into UserInformationDetail.txt
             try
             {
-                StreamWriter sw = new StreamWriter("UserList.txt");
+                StreamWriter sw = new StreamWriter("UserList.txt", true);
                 ID++;
                 Random rd = new Random();
                 Program.ID = ID;

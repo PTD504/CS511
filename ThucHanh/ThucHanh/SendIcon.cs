@@ -17,10 +17,12 @@ namespace ThucHanh
             InitializeComponent();
         }
 
-        public void loadData(string UserImage, string Icon) 
+        public void loadData(Image img, string Icon) 
         {
-            pbUserImage.Image = Image.FromFile(UserImage);
+            pbUserImage.Image = img;
             pbIcon.Image = Image.FromFile(Icon);
+            lbTime.Text = DateTime.Now.ToString("dd/MM/yyyy h:mm:ss tt");
+            lbTime.Location = new Point(pbUserImage.Location.X - 10 - lbTime.Width, lbTime.Location.Y);
         }
     }
 }

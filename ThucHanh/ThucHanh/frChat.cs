@@ -20,22 +20,28 @@ namespace ThucHanh
             InitializeComponent();
         }
 
-        // Common Variables
+        // Load User Location
         int userLocation_Y = 0;
-        int TextMessage_Y = 0;
-        int numMessage = 0;
+        // ID of the people who you chat with
         int current_user = 0;
+        // Number of messages
+        int numMessage = 0;
+        // DataTable
         DataTable dt = new DataTable();
 
+        // Exit application
         private void frChat_FormClosed(object sender, FormClosedEventArgs e)
         {
             System.Windows.Forms.Application.Exit();
         }
-        
+
+        // Form Load
         private void frChat_Load(object sender, EventArgs e)
         {
+            // ID of main user
             int id = Program.ID;
 
+            // Information of main user
             dt.Clear();
 
             //ID*Email*Password*Username*Status*dirProfileImage
@@ -45,9 +51,10 @@ namespace ThucHanh
             dt.Columns.Add("picStatus", typeof(string));
             dt.Columns.Add("profileImage", typeof(string));
             dt.Rows.Add("0", "", "", "", "");
-            
+
             try
             {
+                // Load another user
                 StreamReader sr = new StreamReader("UserList.txt");
                 string str;
 
@@ -57,6 +64,7 @@ namespace ThucHanh
                     string statusPic = (userInfo[4] == "online" ? "StatusImages\\on.png" : "StatusImages\\off.png");
                     dt.Rows.Add(userInfo[0], userInfo[3], userInfo[4], statusPic, userInfo[5]);
 
+                    // Load information of main user
                     if (int.Parse(userInfo[0]) == id)
                     {
                         pbMainUser.Image = Image.FromFile(dt.Rows[id]["profileImage"].ToString());
@@ -72,26 +80,16 @@ namespace ThucHanh
                 return;
             }
 
+            // Load others information
             for (int i = 1; i <= Program.maxID; ++i)
             {
                 if (i == id)
                     continue;
                 LoadUser(i);
             }
-            pnContainer.Controls.Add(CreateChat());
         }
 
-        private Panel CreateChat()
-        {
-            Panel panel = new Panel();
-            panel.Dock = DockStyle.Fill;
-            panel.AutoScroll = true;
-            panel.BackColor = System.Drawing.Color.White;
-            panel.ForeColor = System.Drawing.Color.Red;
-            panel.Padding = new System.Windows.Forms.Padding(20, 10, 20, 20);
-            return panel;
-        }
-
+        // Load current user who you chat with
         private void loadUserChat(object sender, EventArgs e)
         {
             UserDisplay us = (UserDisplay)sender;
@@ -104,17 +102,58 @@ namespace ThucHanh
             lbUserStatus.Text = us.lbUserStatus.Text;
             pbUserStatus.Image = us.pbUserStatus.Image;
 
-            us.BackColor = Color.Teal;
+            pnContainer.Controls.Clear();
+            pnContainer.Controls.Add(flpDisplayIcons);
+            pnContainer.Controls.Add(pnStoreData);
 
-            foreach (Control control in pnContainer.Controls)
+            // Highlight user
+            foreach (Control control in pnUsers.Controls)
             {
-                if (control == flpDisplayIcons)
-                    continue;
-                else
-                    pnContainer.Controls.Remove(control);
+                control.BackColor = Color.Aqua;
+
+                if (control == sender)
+                {
+                    control.BackColor = Color.Teal;
+                }
+            }
+
+            loadImage_Video();
+        }
+
+        private void loadImage_Video()
+        {
+            flpImages.Controls.Clear();
+            flpVideos.Controls.Clear();
+
+            string path = "ChatData_" + Program.ID.ToString() + "\\" + Program.ID.ToString() + "_to_" + current_user.ToString() + ".txt";
+
+            StreamReader sr = new StreamReader(path);
+            string str;
+
+            while ((str = sr.ReadLine()) != null)
+            {
+                string[] strs = str.Split('*');
+
+                if (strs[0] == "3")
+                {
+                    PictureBox pictureBox = new PictureBox();
+                    pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+                    pictureBox.Image = Image.FromFile(strs[1]);
+                    pictureBox.Size = new Size(128, 128);
+                    flpImages.Controls.Add(pictureBox);
+                }
+                else if (strs[0] == "4")
+                {
+                    AxWMPLib.AxWindowsMediaPlayer video = new AxWMPLib.AxWindowsMediaPlayer();
+                    video.URL = strs[1];
+                    video.uiMode = "mini";
+                    video.Size = new Size(128, 128);
+                    flpVideos.Controls.Add(video);
+                }
             }
         }
 
+        // Display users
         void LoadUser(int ID)
         {
             UserDisplay nus = new UserDisplay();
@@ -127,6 +166,7 @@ namespace ThucHanh
             nus.Click += new EventHandler(loadUserChat);
         }
 
+        // Send text message
         private void pbSendText_Click(object sender, EventArgs e)
         {
             if (tbSendText.Text.Length > 0)
@@ -135,24 +175,24 @@ namespace ThucHanh
             }
         }
 
+        // Display your text message on the chat screen
         private void SendText()
         {
             // Display message on the screen chat
-            pnSendText message = new pnSendText(tbSendText.Text);
-            pnContainer.Controls[0].Controls.Add(message);
-            //message.Location = new System.Drawing.Point(0, TextMessage_Y);
-            message.Name = "Message" + numMessage.ToString();
-            //TextMessage_Y += 80;
-            (pnContainer.Controls[0] as Panel).ScrollControlIntoView(message);
+            SendText message = new SendText(tbSendText.Text);
+            //pnContainer.Controls.Add(message);
+            //message.Name = "Message" + numMessage.ToString();
+            add_message(message);
 
             // Save message content into file
             string path = "ChatData_" + Program.ID.ToString() + "\\" + Program.ID.ToString() + "_to_" + current_user.ToString() + ".txt";
             StreamWriter sw = new StreamWriter(path);
-            sw.WriteLine(message.rtbContent.Text);
+            sw.WriteLine("1*" + message.rtbContent.Text);
             sw.Close();
-            tbSendText.Text = "";
+            tbSendText.Clear();
         }
 
+        // Display emoji table
         private void pbSendEmo_Click(object sender, EventArgs e)
         {
             if (flpDisplayIcons.Visible == true)
@@ -182,31 +222,100 @@ namespace ThucHanh
 
         private void IconClick(object sender, EventArgs e)
         {
+            PictureBox icon = (PictureBox)sender;
 
+            // Create icon message
+            SendIcon sendIcon = new SendIcon();
+            sendIcon.loadData(pbMainUser.Image, icon.Tag.ToString());
+
+            // Display icon message on chat screen
+            add_message(sendIcon);
+
+            // Save the icon into file
+            string path = "ChatData_" + Program.ID.ToString() + "\\" + Program.ID.ToString() + "_to_" + current_user.ToString() + ".txt";
+            StreamWriter sw = new StreamWriter(path);
+            sw.WriteLine("2*" + icon.Tag.ToString());
+            sw.Close();
         }
 
-        void sendIcon(object sender, EventArgs e)
-        {
-
-        }
-
+        // Attach image file, video file
         private void pbAttachFile_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Multiselect = true;
+            //ofd.Filter = "";
+
             if (ofd.ShowDialog() == DialogResult.OK)
             {
-                
+                string[] files = ofd.FileNames;
+
+                foreach (string file in files)
+                {
+                    char c = file[file.Length - 1];
+
+                    if (char.IsDigit(c))
+                    {
+                        sendVideo(file);
+                    }
+                    else
+                    {
+                        sendImage(files);
+                        break;
+                    }
+                }
             }
+            else
+                MessageBox.Show("Can't open file", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
-        private void flpIconEmo_Paint(object sender, PaintEventArgs e)
+        private void sendImage(string[] path)
         {
-            PictureBox icon1 = new PictureBox();
+            SendImage sendImage = new SendImage();
+            sendImage.loadData(path);
+            foreach (string file in path)
+            {
+                // Save message content into file
+                string file_path = "ChatData_" + Program.ID.ToString() + "\\" + Program.ID.ToString() + "_to_" + current_user.ToString() + ".txt";
+                StreamWriter sw = new StreamWriter(file_path);
+                sw.WriteLine("3*" + file);
+                sw.Close();
 
-            icon1.Click += new EventHandler(sendIcon);
+                PictureBox pictureBox = new PictureBox();
+                pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+                pictureBox.Image = Image.FromFile(file_path);
+                flpImages.Controls.Add( pictureBox );
+            }
+
+            add_message(sendImage);
         }
 
+        private void add_message(Control control)
+        {
+            pnContainer.Controls.Add(control);
+            pnContainer.Controls.SetChildIndex(control, 0);
+            control.Dock = DockStyle.Top;
+            pnContainer.ScrollControlIntoView(control);
+        }
+
+        private void sendVideo(string path)
+        {
+            SendVideo sendVideo = new SendVideo();
+            sendVideo.loadData(pbMainUser.Image, path);
+            // Save message content into file
+            string file_path = "ChatData_" + Program.ID.ToString() + "\\" + Program.ID.ToString() + "_to_" + current_user.ToString() + ".txt";
+            StreamWriter sw = new StreamWriter(file_path);
+            sw.WriteLine("4*" + path);
+            sw.Close();
+
+            AxWMPLib.AxWindowsMediaPlayer video = new AxWMPLib.AxWindowsMediaPlayer();
+            video.URL = path;
+            video.uiMode = "mini";
+            flpVideos.Controls.Add(video);
+
+            add_message(sendVideo);
+        }
+
+        // Send text message using Enter key
         private void tbSendText_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)Keys.Enter)
@@ -214,18 +323,35 @@ namespace ThucHanh
                 if (tbSendText.Text.Length > 0)
                 {
                     e.Handled = true;
-                    
+
                     SendText();
                 }
             }
         }
 
+        // Hide emoji table if necessary
         private void tbSendText_Click(object sender, EventArgs e)
         {
             if (flpDisplayIcons.Visible)
             {
                 flpDisplayIcons.Visible = false;
             }
+        }
+
+        private void pbOpenImVd_Click(object sender, EventArgs e)
+        {
+            if (pnStoreData.Visible)
+            {
+                pnStoreData.Visible = false;
+                return;
+            }
+
+            pnStoreData.Visible = true;
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

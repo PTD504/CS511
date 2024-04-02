@@ -228,5 +228,65 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\emoji_icons\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\emoji_icons\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\emoji_icons\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\emoji_icons\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\emoji_icons\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\emoji_icons\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\emoji_icons\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\emoji_icons\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\emoji_icons\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\emoji_icons\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\emoji_icons\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\emoji_icons\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\call_1034131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\video-call_4616649.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download_2820287.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting_2040504.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_11262247.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout_1828427.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\telephone_1148778.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause_11333378.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

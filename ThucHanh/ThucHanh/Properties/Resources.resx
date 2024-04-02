@@ -118,79 +118,139 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="AttachFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AttachFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="emo6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\emoji_icons\emo6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Picture1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Picture1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="emo0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\emoji_icons\emo0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="On" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\On.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="aa9b66e9-0f9b-4aed-834b-f846a7cc272b" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\aa9b66e9-0f9b-4aed-834b-f846a7cc272b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="key_1782771" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\key_1782771.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="close_8423693" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\close_8423693.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Google_update" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Google_update.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="emo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\emoji_icons\emo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="emo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\emoji_icons\emo3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="facebook_5968764" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\facebook_5968764.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="profile_4945750" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\profile_4945750.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="emo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\emoji_icons\emo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="emo8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\emoji_icons\emo8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user_6172270" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user_6172270.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="emo4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\emoji_icons\emo4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="person_11081570" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\person_11081570.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Find" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Find.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Send" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Send.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="chat_8895412" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\chat_8895412.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="user_6172270" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_6172270.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="emo5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\emoji_icons\emo5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Google_update" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Google_update.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="emo7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\bin\Debug\emoji_icons\emo7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="setting_2040504" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\setting_2040504.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emo4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\emo4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_11262247" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout_11262247.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Picture1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Picture1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\emo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chat_8895412" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chat_8895412.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="On" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\On.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emo0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\emo0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AttachFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AttachFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\emo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emo8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\emo8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="telephone_1148778" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\telephone_1148778.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profile_4945750" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profile_4945750.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="person_11081570" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\person_11081570.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_1782771" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_1782771.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="call_1034131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\call_1034131.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout_1828427" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout_1828427.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_8423693" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_8423693.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="twitter_3670151" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\twitter_3670151.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Send" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Send.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aa9b66e9-0f9b-4aed-834b-f846a7cc272b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aa9b66e9-0f9b-4aed-834b-f846a7cc272b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\emo3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download_2820287" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download_2820287.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="emoji_click" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\emoji_click.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="video-call_4616649" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\video-call_4616649.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emo6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\emo6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\emoji_icons\6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="facebook_5968764" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\facebook_5968764.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pause_11333378" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pause_11333378.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

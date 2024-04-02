@@ -10,14 +10,16 @@ using System.Windows.Forms;
 
 namespace ThucHanh
 {
-    public partial class pnSendText : UserControl
+    public partial class SendText : UserControl
     {
-        public pnSendText(string message)
+        public SendText(string message)
         {
             InitializeComponent();
             InitializeUI();
 
             rtbContent.Text = message;
+            lbTime.Text = DateTime.Now.ToString("dd/MM/yyyy h:mm:ss tt");
+            lbTime.Location = new Point(pbUserImage.Location.X - 10 - lbTime.Width, lbTime.Location.Y);
             SetChatboxSize();
         }
 
@@ -46,28 +48,10 @@ namespace ThucHanh
             }
 
             // reset rtbContent Location
-            rtbContent.Location = new Point(pbProfilePic.Location.X - rtbContent.Width - 8, pbProfilePic.Location.Y + 5);
-
-            // set BackColor for rtbContent
-            rtbContent.BackColor = Color.AliceBlue;
+            rtbContent.Location = new Point(pbUserImage.Location.X - rtbContent.Width - 8, pbUserImage.Location.Y + 5);
 
             // resize panel
             this.Size = new Size(this.Width, Math.Max(this.Height, rtbContent.Height));
-            //Size textSize = TextRenderer.MeasureText(rtbTest.Text, rtbTest.Font);
-            //int height = textSize.Height, width = textSize.Width;
-            //int W = rtbTest.MaximumSize.Width, H = 0;
-            //lbCheck.Text = height.ToString() + ", " + width.ToString();
-
-            //if (width > W)
-            //{
-            //    rtbTest.Width = W;
-            //    rtbTest.Height = (height + 8) * (width / W + 1);
-            //}
-            //else
-            //{
-            //    rtbTest.Width = width;
-            //    rtbTest.Height = height + 8;
-            //}
         }
 
         private void rtbContent_TextChanged(object sender, EventArgs e)

@@ -26,8 +26,11 @@ namespace ThucHanh
                 PictureBox pictureBox = new PictureBox();
                 pictureBox.Image = Image.FromFile(path);
                 pictureBox.Size = new Size(80, 80);
+                pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
                 flpImageContainer.Controls.Add(pictureBox);
             }
+            lbTime.Text = DateTime.Now.ToString("dd/MM/yyyy h:mm:ss tt");
+            lbTime.Location = new Point(pbUserImage.Location.X - 10 - lbTime.Width, lbTime.Location.Y);
         }
     }
 }
