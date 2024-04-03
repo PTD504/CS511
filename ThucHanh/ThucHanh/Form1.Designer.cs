@@ -54,7 +54,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.tbprofile = new System.Windows.Forms.TextBox();
             this.tbPassword = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
@@ -311,7 +311,7 @@
             this.pnSignUp.Controls.Add(this.label8);
             this.pnSignUp.Controls.Add(this.label7);
             this.pnSignUp.Controls.Add(this.label6);
-            this.pnSignUp.Controls.Add(this.textBox5);
+            this.pnSignUp.Controls.Add(this.tbprofile);
             this.pnSignUp.Controls.Add(this.tbPassword);
             this.pnSignUp.Controls.Add(this.panel4);
             this.pnSignUp.Controls.Add(this.btSignup);
@@ -408,17 +408,17 @@
             this.label6.TabIndex = 17;
             this.label6.Text = "Username";
             // 
-            // textBox5
+            // tbprofile
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
-            this.textBox5.Location = new System.Drawing.Point(42, 430);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(0);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(307, 50);
-            this.textBox5.TabIndex = 16;
-            this.textBox5.WordWrap = false;
+            this.tbprofile.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.tbprofile.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold);
+            this.tbprofile.Location = new System.Drawing.Point(42, 430);
+            this.tbprofile.Margin = new System.Windows.Forms.Padding(0);
+            this.tbprofile.Multiline = true;
+            this.tbprofile.Name = "tbprofile";
+            this.tbprofile.Size = new System.Drawing.Size(307, 50);
+            this.tbprofile.TabIndex = 16;
+            this.tbprofile.WordWrap = false;
             // 
             // tbPassword
             // 
@@ -431,6 +431,7 @@
             this.tbPassword.PasswordChar = '*';
             this.tbPassword.Size = new System.Drawing.Size(360, 50);
             this.tbPassword.TabIndex = 15;
+            this.tbPassword.Text = "12345";
             this.tbPassword.WordWrap = false;
             // 
             // panel4
@@ -485,6 +486,7 @@
             this.tbEmail.Name = "tbEmail";
             this.tbEmail.Size = new System.Drawing.Size(360, 50);
             this.tbEmail.TabIndex = 4;
+            this.tbEmail.Text = "22520000@gmail.com";
             this.tbEmail.WordWrap = false;
             // 
             // tbName
@@ -497,6 +499,7 @@
             this.tbName.Name = "tbName";
             this.tbName.Size = new System.Drawing.Size(360, 50);
             this.tbName.TabIndex = 1;
+            this.tbName.Text = "UserName";
             this.tbName.WordWrap = false;
             // 
             // pbClose
@@ -520,8 +523,8 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1024, 725);
             this.Controls.Add(this.pbClose);
-            this.Controls.Add(this.pnLogin);
             this.Controls.Add(this.pnSignUp);
+            this.Controls.Add(this.pnLogin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -576,7 +579,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox tbprofile;
         private System.Windows.Forms.TextBox tbPassword;
         private System.Windows.Forms.PictureBox pbProfilePicture;
         private System.Windows.Forms.LinkLabel llbLogin;

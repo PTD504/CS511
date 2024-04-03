@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AxWMPLib;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,13 +16,16 @@ namespace ThucHanh
         public SendVideo()
         {
             InitializeComponent();
-            axwmpVideo.uiMode = "none";
+            //axwmpVideo.uiMode = "none";
+            axwmpVideo.uiMode = "mini";
         }
 
         public void loadData(Image image, string path)
         {
             pbUserImage.Image = image;
+            //AxWMPLib.AxWindowsMediaPlayer video = new AxWMPLib.AxWindowsMediaPlayer();
             axwmpVideo.URL = path;
+
             lbTime.Text = DateTime.Now.ToString("dd/MM/yyyy h:mm:ss tt");
             lbTime.Location = new Point(pbUserImage.Location.X - 10 - lbTime.Width, lbTime.Location.Y);
         }
@@ -40,6 +44,15 @@ namespace ThucHanh
         {
             //AxWMPLib.WMPPlayState currentState = axwmpVideo.playState;
             axwmpVideo.Ctlcontrols.play();
+
+            if (axwmpVideo.playState == WMPLib.WMPPlayState.wmppsPaused || axwmpVideo.playState == WMPLib.WMPPlayState.wmppsUndefined)
+            {
+                axwmpVideo.Ctlcontrols.play();
+            }
+            else if (axwmpVideo.playState == WMPLib.WMPPlayState.wmppsPlaying)
+            {
+                axwmpVideo.Ctlcontrols.pause();
+            }
         }
     }
 }

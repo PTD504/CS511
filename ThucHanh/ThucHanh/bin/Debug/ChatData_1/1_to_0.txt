@@ -1,1 +1,19 @@
-1*oke
+2*emoji_icons\\7.png
+2*emoji_icons\\6.png
+2*emoji_icons\\10.png
+2*emoji_icons\\5.png
+2*emoji_icons\\8.png
+2*emoji_icons\\8.png
+3*C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\bin\Debug\Images\cat-meme-funny.gif
+3*C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\bin\Debug\Images\dog-awkward.gif
+3*C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\bin\Debug\Images\funny.gif
+3*C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\bin\Debug\Images\goma-sad.gif
+3*C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\bin\Debug\Images\dog-awkward.gif
+3*C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\bin\Debug\Images\cat-meme-funny.gif
+3*C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\bin\Debug\Images\dog-awkward.gif
+3*C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\bin\Debug\Images\cat-meme-funny.gif
+3*C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\bin\Debug\Images\dog-awkward.gif
+3*C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\bin\Debug\Images\funny.gif
+3*C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\bin\Debug\Images\goma-sad.gif
+3*C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\bin\Debug\Images\dog-awkward.gif
+4*C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\bin\Debug\videos\New Git Users Be Like....mp4

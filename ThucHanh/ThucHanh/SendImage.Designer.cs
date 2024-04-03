@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.flpImageContainer = new System.Windows.Forms.FlowLayoutPanel();
-            this.lbTime = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.lbTime = new System.Windows.Forms.Label();
             this.pbUserImage = new System.Windows.Forms.PictureBox();
             this.flpImageContainer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -45,33 +45,19 @@
             // 
             // flpImageContainer
             // 
-            this.flpImageContainer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.flpImageContainer.AutoSize = true;
-            this.flpImageContainer.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.flpImageContainer.Controls.Add(this.pictureBox7);
             this.flpImageContainer.Controls.Add(this.pictureBox1);
             this.flpImageContainer.Controls.Add(this.pictureBox2);
             this.flpImageContainer.Controls.Add(this.pictureBox3);
-            this.flpImageContainer.Location = new System.Drawing.Point(179, 5);
+            this.flpImageContainer.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
+            this.flpImageContainer.Location = new System.Drawing.Point(177, 10);
             this.flpImageContainer.Margin = new System.Windows.Forms.Padding(0);
             this.flpImageContainer.MaximumSize = new System.Drawing.Size(428, 1000);
             this.flpImageContainer.Name = "flpImageContainer";
-            this.flpImageContainer.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.flpImageContainer.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.flpImageContainer.Size = new System.Drawing.Size(416, 104);
             this.flpImageContainer.TabIndex = 1;
-            // 
-            // lbTime
-            // 
-            this.lbTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.lbTime.AutoEllipsis = true;
-            this.lbTime.AutoSize = true;
-            this.lbTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lbTime.Location = new System.Drawing.Point(481, 120);
-            this.lbTime.Name = "lbTime";
-            this.lbTime.Size = new System.Drawing.Size(115, 20);
-            this.lbTime.TabIndex = 2;
-            this.lbTime.Text = "Something old";
-            this.lbTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pictureBox7
             // 
@@ -117,26 +103,42 @@
             this.pictureBox3.TabIndex = 10;
             this.pictureBox3.TabStop = false;
             // 
+            // lbTime
+            // 
+            this.lbTime.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbTime.AutoEllipsis = true;
+            this.lbTime.AutoSize = true;
+            this.lbTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.lbTime.Location = new System.Drawing.Point(483, 120);
+            this.lbTime.Name = "lbTime";
+            this.lbTime.Size = new System.Drawing.Size(115, 20);
+            this.lbTime.TabIndex = 2;
+            this.lbTime.Text = "Something old";
+            this.lbTime.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // pbUserImage
             // 
             this.pbUserImage.BackColor = System.Drawing.SystemColors.MenuBar;
             this.pbUserImage.Location = new System.Drawing.Point(605, 10);
             this.pbUserImage.Name = "pbUserImage";
             this.pbUserImage.Size = new System.Drawing.Size(40, 40);
+            this.pbUserImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbUserImage.TabIndex = 0;
             this.pbUserImage.TabStop = false;
             // 
             // SendImage
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.MenuBar;
             this.Controls.Add(this.lbTime);
             this.Controls.Add(this.flpImageContainer);
             this.Controls.Add(this.pbUserImage);
+            this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "SendImage";
             this.Padding = new System.Windows.Forms.Padding(5);
-            this.Size = new System.Drawing.Size(656, 155);
+            this.Size = new System.Drawing.Size(655, 155);
             this.flpImageContainer.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

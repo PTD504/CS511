@@ -3,48 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\sendimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\sendimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\sendtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\sendtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\sendicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\sendicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\sendimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\sendimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\sendvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\sendvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\frchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\frchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\frchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\frchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|c:\\users\\user\\source\\repos\\cs511\\thuchanh\\thuchanh\\frchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\frchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|c:\\users\\user\\source\\repos\\cs511\\thuchanh\\thuchanh\\sendvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\sendvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\sendvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\sendvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\sendvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|c:\\users\\user\\source\\repos\\cs511\\thuchanh\\thuchanh\\sendvideo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\sendvideo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\sendimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\sendimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\sendimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\sendimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\sendtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\sendtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\savemedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\savemedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\savemedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\savemedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\userdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\userdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\sendicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -55,20 +59,20 @@
       "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\sendtext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\userdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\userdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\userdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\userdisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\sendicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\sendicon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\thuchanh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC1C06D4-A0C2-4174-82AA-56567F1A6188}|ThucHanh\\ThucHanh.csproj|solutionrelative:thuchanh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,129 +101,8 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SendVideo.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendVideo.Designer.cs",
-              "RelativeDocumentMoniker": "ThucHanh\\SendVideo.Designer.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendVideo.Designer.cs",
-              "RelativeToolTip": "ThucHanh\\SendVideo.Designer.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAYwGwAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T03:02:34.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SendVideo.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendVideo.cs",
-              "RelativeDocumentMoniker": "ThucHanh\\SendVideo.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendVideo.cs",
-              "RelativeToolTip": "ThucHanh\\SendVideo.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAIwBgAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T15:56:33.936Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SendVideo.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendVideo.cs",
-              "RelativeDocumentMoniker": "ThucHanh\\SendVideo.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendVideo.cs [Design]",
-              "RelativeToolTip": "ThucHanh\\SendVideo.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T14:32:53.66Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frChat.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\frChat.cs",
-              "RelativeDocumentMoniker": "ThucHanh\\frChat.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\frChat.cs",
-              "RelativeToolTip": "ThucHanh\\frChat.cs",
-              "ViewState": "AQIAAGcAAAAAAAAAAAAAAGEBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T13:16:09.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SendImage.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendImage.cs",
-              "RelativeDocumentMoniker": "ThucHanh\\SendImage.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendImage.cs",
-              "RelativeToolTip": "ThucHanh\\SendImage.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T14:26:42.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SendImage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendImage.cs",
-              "RelativeDocumentMoniker": "ThucHanh\\SendImage.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendImage.cs [Design]",
-              "RelativeToolTip": "ThucHanh\\SendImage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T14:24:02.168Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SendIcon.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendIcon.cs",
-              "RelativeDocumentMoniker": "ThucHanh\\SendIcon.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendIcon.cs",
-              "RelativeToolTip": "ThucHanh\\SendIcon.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T14:22:57.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SendIcon.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendIcon.cs",
-              "RelativeDocumentMoniker": "ThucHanh\\SendIcon.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendIcon.cs [Design]",
-              "RelativeToolTip": "ThucHanh\\SendIcon.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T14:21:07.193Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SendText.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendText.cs",
-              "RelativeDocumentMoniker": "ThucHanh\\SendText.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendText.cs [Design]",
-              "RelativeToolTip": "ThucHanh\\SendText.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T01:44:05.121Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "frChat.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\frChat.cs",
               "RelativeDocumentMoniker": "ThucHanh\\frChat.cs",
@@ -231,7 +114,139 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SendImage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendImage.cs",
+              "RelativeDocumentMoniker": "ThucHanh\\SendImage.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendImage.cs [Design]",
+              "RelativeToolTip": "ThucHanh\\SendImage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T14:24:02.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frChat.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\frChat.cs",
+              "RelativeDocumentMoniker": "ThucHanh\\frChat.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\frChat.cs",
+              "RelativeToolTip": "ThucHanh\\frChat.cs",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAowLkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T13:16:09.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SaveMedia.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SaveMedia.cs",
+              "RelativeDocumentMoniker": "ThucHanh\\SaveMedia.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SaveMedia.cs [Design]",
+              "RelativeToolTip": "ThucHanh\\SaveMedia.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T11:36:36.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SaveMedia.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SaveMedia.cs",
+              "RelativeDocumentMoniker": "ThucHanh\\SaveMedia.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SaveMedia.cs",
+              "RelativeToolTip": "ThucHanh\\SaveMedia.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAmwBsAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T11:38:14.195Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SendVideo.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendVideo.cs",
+              "RelativeDocumentMoniker": "ThucHanh\\SendVideo.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendVideo.cs [Design]",
+              "RelativeToolTip": "ThucHanh\\SendVideo.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T14:32:53.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SendVideo.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendVideo.cs",
+              "RelativeDocumentMoniker": "ThucHanh\\SendVideo.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendVideo.cs",
+              "RelativeToolTip": "ThucHanh\\SendVideo.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T15:56:33.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\Form1.cs",
+              "RelativeDocumentMoniker": "ThucHanh\\Form1.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\Form1.cs",
+              "RelativeToolTip": "ThucHanh\\Form1.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T08:07:37.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SendImage.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendImage.cs",
+              "RelativeDocumentMoniker": "ThucHanh\\SendImage.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendImage.cs",
+              "RelativeToolTip": "ThucHanh\\SendImage.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCMAAACIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T14:26:42.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SendIcon.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendIcon.cs",
+              "RelativeDocumentMoniker": "ThucHanh\\SendIcon.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendIcon.cs",
+              "RelativeToolTip": "ThucHanh\\SendIcon.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T14:22:57.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SendIcon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendIcon.cs",
+              "RelativeDocumentMoniker": "ThucHanh\\SendIcon.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendIcon.cs [Design]",
+              "RelativeToolTip": "ThucHanh\\SendIcon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T14:21:07.193Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "SendText.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendText.cs",
+              "RelativeDocumentMoniker": "ThucHanh\\SendText.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendText.cs [Design]",
+              "RelativeToolTip": "ThucHanh\\SendText.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T01:44:05.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "UserDisplay.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\UserDisplay.cs",
               "RelativeDocumentMoniker": "ThucHanh\\UserDisplay.cs",
@@ -254,64 +269,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\Form1.cs",
               "RelativeDocumentMoniker": "ThucHanh\\Form1.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\Form1.cs [Design]",
               "RelativeToolTip": "ThucHanh\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:36:38.034Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-03-28T08:36:38.034Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "SendText.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendText.cs",
               "RelativeDocumentMoniker": "ThucHanh\\SendText.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\SendText.cs",
               "RelativeToolTip": "ThucHanh\\SendText.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA2AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T01:19:15.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T01:19:15.316Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\Form1.cs",
-              "RelativeDocumentMoniker": "ThucHanh\\Form1.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\Form1.cs",
-              "RelativeToolTip": "ThucHanh\\Form1.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAQwD4AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T08:07:37.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "ThucHanh\\Form1.Designer.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\Form1.Designer.cs",
               "RelativeToolTip": "ThucHanh\\Form1.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAOIAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T08:36:59.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T08:36:59.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\Program.cs",
               "RelativeDocumentMoniker": "ThucHanh\\Program.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\CS511\\ThucHanh\\ThucHanh\\Program.cs",
               "RelativeToolTip": "ThucHanh\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAnAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T14:48:27.055Z"
             }

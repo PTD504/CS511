@@ -60,6 +60,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SaveMedia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SaveMedia.Designer.cs">
+      <DependentUpon>SaveMedia.cs</DependentUpon>
+    </Compile>
     <Compile Include="SendIcon.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -106,6 +112,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SaveMedia.resx">
+      <DependentUpon>SaveMedia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SendIcon.resx">
       <DependentUpon>SendIcon.cs</DependentUpon>
     </EmbeddedResource>

@@ -18,9 +18,21 @@ namespace ThucHanh
         public frLogin()
         {
             InitializeComponent();
+
+            // The maximum number of users
+            StreamReader sr = new StreamReader("UserList.txt");
+            string str;
+
+            while ((str = sr.ReadLine()) != null) 
+            {
+                string[] strs = str.Split('*');
+                Program.maxID = Math.Max(Program.maxID, int.Parse(strs[0]));
+            }
+
+            sr.Close();
         }
 
-        private int ID = 1;
+        private int ID = Program.maxID;
         private string profileImage = "";
 
         //private void label4_Paint(object sender, PaintEventArgs e)
@@ -62,6 +74,9 @@ namespace ThucHanh
             mail.Subject = "Reset Password";
             mail.Body = "Your new pass: dang2415";
 
+            // Save new pass
+
+
             // Send mail
             smtp.Send(mail);
             MessageBox.Show("Email sent sucessfully!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -99,6 +114,8 @@ namespace ThucHanh
                     return int.Parse(st[0]);
             }
 
+            sr.Close();
+
             return -1;
         }
 
@@ -115,6 +132,8 @@ namespace ThucHanh
             if (file.ShowDialog() == DialogResult.OK)
             {
                 profileImage = file.FileName;
+                tbprofile.Text = profileImage;
+                pbProfilePicture.Image = Image.FromFile(profileImage);
             }
             else
                 MessageBox.Show("Your profile image hasn't not been chosen", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -160,6 +179,7 @@ namespace ThucHanh
                 if (st[1] == EmailAddress)
                     return 1;
             }
+            sr.Close();
 
             // Write user information into UserInformationDetail.txt
             try
@@ -169,8 +189,9 @@ namespace ThucHanh
                 Random rd = new Random();
                 Program.ID = ID;
                 Program.maxID = ID;
-                string info = ID.ToString() + "*" + "*" + EmailAddress + "*" + Password + "*" + Username + "*" + ((rd.Next(100, 1000) % 2 == 1) ? "online" : "offline") + dirProfilePicture;
+                string info = ID.ToString() + "*" + EmailAddress + "*" + Password + "*" + Username + "*" + ((rd.Next(100, 1000) % 2 == 1) ? "online" : "offline") + "*" + dirProfilePicture;
                 sw.WriteLine(info);
+                sw.Close();
                 return 2;
             }
             catch

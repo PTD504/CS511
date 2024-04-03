@@ -40,3 +40,4 @@ C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\obj\Debug\ThucHanh.csproj.Cor
 C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\obj\Debug\ThucHanh.exe
 C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\obj\Debug\ThucHanh.pdb
 C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\obj\Debug\ThucHanh.SendText.resources
+C:\Users\USER\source\repos\CS511\ThucHanh\ThucHanh\obj\Debug\ThucHanh.SaveMedia.resources

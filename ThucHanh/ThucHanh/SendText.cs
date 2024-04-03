@@ -12,11 +12,12 @@ namespace ThucHanh
 {
     public partial class SendText : UserControl
     {
-        public SendText(string message)
+        public SendText(Image image, string message)
         {
             InitializeComponent();
             InitializeUI();
 
+            pbUserImage.Image = image;
             rtbContent.Text = message;
             lbTime.Text = DateTime.Now.ToString("dd/MM/yyyy h:mm:ss tt");
             lbTime.Location = new Point(pbUserImage.Location.X - 10 - lbTime.Width, lbTime.Location.Y);

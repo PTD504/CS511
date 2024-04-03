@@ -23,16 +23,14 @@ namespace ThucHanh
         // Load User Location
         int userLocation_Y = 0;
         // ID of the people who you chat with
-        int current_user = 0;
-        // Number of messages
-        int numMessage = 0;
+        int current_user = 1;
         // DataTable
         DataTable dt = new DataTable();
 
         // Exit application
         private void frChat_FormClosed(object sender, FormClosedEventArgs e)
         {
-            System.Windows.Forms.Application.Exit();
+            //System.Windows.Forms.Application.Exit();
         }
 
         // Form Load
@@ -61,7 +59,7 @@ namespace ThucHanh
                 while ((str = sr.ReadLine()) != null)
                 {
                     string[] userInfo = str.Split('*');
-                    string statusPic = (userInfo[4] == "online" ? "StatusImages\\on.png" : "StatusImages\\off.png");
+                    string statusPic = (userInfo[4] == "online" ? @"StatusImages\on.png" : @"StatusImages\off.png");
                     dt.Rows.Add(userInfo[0], userInfo[3], userInfo[4], statusPic, userInfo[5]);
 
                     // Load information of main user
@@ -73,6 +71,8 @@ namespace ThucHanh
                         pbMainStatus.Image = Image.FromFile(dt.Rows[id]["picStatus"].ToString());
                     }
                 }
+
+                sr.Close();
             }
             catch
             {
@@ -134,6 +134,17 @@ namespace ThucHanh
             {
                 string[] strs = str.Split('*');
 
+                if (strs[0] == "1")
+                {
+                    SendText sendText = new SendText(pbMainUser.Image ,strs[1]);
+                    add_message(sendText);
+                }
+                else if (strs[0] == "2")
+                {
+                    SendIcon sendIcon = new SendIcon();
+                    sendIcon.loadData(pbMainUser.Image, strs[1]);
+                    add_message(sendIcon);
+                }
                 if (strs[0] == "3")
                 {
                     PictureBox pictureBox = new PictureBox();
@@ -141,16 +152,25 @@ namespace ThucHanh
                     pictureBox.Image = Image.FromFile(strs[1]);
                     pictureBox.Size = new Size(128, 128);
                     flpImages.Controls.Add(pictureBox);
+
+                    SendImage sendImage = new SendImage();
+                    string[] s = { strs[1] };
+                    sendImage.loadData(pbMainUser.Image, s);
+                    add_message(sendImage);
                 }
                 else if (strs[0] == "4")
                 {
-                    AxWMPLib.AxWindowsMediaPlayer video = new AxWMPLib.AxWindowsMediaPlayer();
-                    video.URL = strs[1];
-                    video.uiMode = "mini";
-                    video.Size = new Size(128, 128);
-                    flpVideos.Controls.Add(video);
+                    SaveMedia saveMedia = new SaveMedia();
+                    saveMedia.loadData(strs[1]);
+                    flpVideos.Controls.Add(saveMedia);
+
+                    SendVideo sendVideo = new SendVideo();
+                    sendVideo.loadData(pbMainUser.Image, strs[1]);
+                    add_message(sendVideo);
                 }
             }
+
+            sr.Close();
         }
 
         // Display users
@@ -179,15 +199,16 @@ namespace ThucHanh
         private void SendText()
         {
             // Display message on the screen chat
-            SendText message = new SendText(tbSendText.Text);
+            SendText message = new SendText(pbMainUser.Image, tbSendText.Text);
             //pnContainer.Controls.Add(message);
             //message.Name = "Message" + numMessage.ToString();
             add_message(message);
 
             // Save message content into file
             string path = "ChatData_" + Program.ID.ToString() + "\\" + Program.ID.ToString() + "_to_" + current_user.ToString() + ".txt";
-            StreamWriter sw = new StreamWriter(path);
-            sw.WriteLine("1*" + message.rtbContent.Text);
+            StreamWriter sw = new StreamWriter(path, true);
+            string data = "1*" + message.rtbContent.Text;
+            sw.WriteLine(data);
             sw.Close();
             tbSendText.Clear();
         }
@@ -204,6 +225,7 @@ namespace ThucHanh
             {
                 flpDisplayIcons.Visible = true;
                 flpDisplayIcons.BringToFront();
+                pnContainer.ScrollControlIntoView(flpDisplayIcons);
 
                 pbIcon1.Click += new EventHandler(IconClick);
                 pbIcon2.Click += new EventHandler(IconClick);
@@ -233,8 +255,9 @@ namespace ThucHanh
 
             // Save the icon into file
             string path = "ChatData_" + Program.ID.ToString() + "\\" + Program.ID.ToString() + "_to_" + current_user.ToString() + ".txt";
-            StreamWriter sw = new StreamWriter(path);
-            sw.WriteLine("2*" + icon.Tag.ToString());
+            StreamWriter sw = new StreamWriter(path, true);
+            string data = "2*" + icon.Tag.ToString();
+            sw.WriteLine(data);
             sw.Close();
         }
 
@@ -264,25 +287,27 @@ namespace ThucHanh
                     }
                 }
             }
-            else
-                MessageBox.Show("Can't open file", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //else
+            //    MessageBox.Show("Can't open file", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void sendImage(string[] path)
         {
             SendImage sendImage = new SendImage();
-            sendImage.loadData(path);
+            sendImage.loadData(pbMainUser.Image, path);
             foreach (string file in path)
             {
                 // Save message content into file
                 string file_path = "ChatData_" + Program.ID.ToString() + "\\" + Program.ID.ToString() + "_to_" + current_user.ToString() + ".txt";
-                StreamWriter sw = new StreamWriter(file_path);
+                StreamWriter sw = new StreamWriter(file_path, true);
                 sw.WriteLine("3*" + file);
                 sw.Close();
 
                 PictureBox pictureBox = new PictureBox();
                 pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
-                pictureBox.Image = Image.FromFile(file_path);
+                pictureBox.Image = Image.FromFile(file);
+                pictureBox.BorderStyle = BorderStyle.FixedSingle;
+                pictureBox.Margin = new Padding(3, 3, 3, 3);
                 flpImages.Controls.Add( pictureBox );
             }
 
@@ -303,14 +328,13 @@ namespace ThucHanh
             sendVideo.loadData(pbMainUser.Image, path);
             // Save message content into file
             string file_path = "ChatData_" + Program.ID.ToString() + "\\" + Program.ID.ToString() + "_to_" + current_user.ToString() + ".txt";
-            StreamWriter sw = new StreamWriter(file_path);
+            StreamWriter sw = new StreamWriter(file_path, true);
             sw.WriteLine("4*" + path);
             sw.Close();
 
-            AxWMPLib.AxWindowsMediaPlayer video = new AxWMPLib.AxWindowsMediaPlayer();
-            video.URL = path;
-            video.uiMode = "mini";
-            flpVideos.Controls.Add(video);
+            SaveMedia saveMedia = new SaveMedia();
+            saveMedia.loadData(path);
+            flpVideos.Controls.Add(saveMedia);
 
             add_message(sendVideo);
         }
@@ -347,10 +371,14 @@ namespace ThucHanh
             }
 
             pnStoreData.Visible = true;
+            pnStoreData.BringToFront();
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
+            this.Close();
+            frLogin frLogin = new frLogin();
+            frLogin.Show();
 
         }
     }
