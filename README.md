@@ -21,4 +21,4 @@
 * Phan Thanh Đăng - Email: 22520193@gm.uit.edu.vn
 
 ## Đồ án môn học
-<b><i>Ứng dụng quản lý khách sạn</i></b>
+Update...
