@@ -65,7 +65,7 @@ namespace ThucHanh
             smtp.EnableSsl = true;
             smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new NetworkCredential(mail.From.Address, "qetu rlpf lqvw ljlt");
+            smtp.Credentials = new NetworkCredential(mail.From.Address, "");
             smtp.Host = "smtp.gmail.com";
 
             //recipient
