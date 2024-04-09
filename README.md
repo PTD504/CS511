@@ -15,7 +15,7 @@
 
 ## GIẢNG VIÊN HƯỚNG DẪN
 <a name="giangvien"></a>
-* Ths. **Nguyễn Bích Vân**
+* Ths. **Nguyễn Bích Vân** - Email: vannb@uit.edu.vn
 
 ## Thành viên
 * Phan Thanh Đăng - Email: 22520193@gm.uit.edu.vn
