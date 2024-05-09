@@ -1,0 +1,12 @@
+D:\Chinh_Khoa\CS511\StudyOnlineApp\StudyOnlineApp\bin\Debug\StudyOnlineApp.exe.config
+D:\Chinh_Khoa\CS511\StudyOnlineApp\StudyOnlineApp\bin\Debug\StudyOnlineApp.exe
+D:\Chinh_Khoa\CS511\StudyOnlineApp\StudyOnlineApp\bin\Debug\StudyOnlineApp.pdb
+D:\Chinh_Khoa\CS511\StudyOnlineApp\StudyOnlineApp\bin\Debug\Guna.UI.dll
+D:\Chinh_Khoa\CS511\StudyOnlineApp\StudyOnlineApp\obj\Debug\StudyOnlineApp.csproj.AssemblyReference.cache
+D:\Chinh_Khoa\CS511\StudyOnlineApp\StudyOnlineApp\obj\Debug\StudyOnlineApp.Properties.Resources.resources
+D:\Chinh_Khoa\CS511\StudyOnlineApp\StudyOnlineApp\obj\Debug\StudyOnlineApp.csproj.GenerateResource.cache
+D:\Chinh_Khoa\CS511\StudyOnlineApp\StudyOnlineApp\obj\Debug\StudyOnlineApp.csproj.CoreCompileInputs.cache
+D:\Chinh_Khoa\CS511\StudyOnlineApp\StudyOnlineApp\obj\Debug\StudyOnl.8408FF24.Up2Date
+D:\Chinh_Khoa\CS511\StudyOnlineApp\StudyOnlineApp\obj\Debug\StudyOnlineApp.exe
+D:\Chinh_Khoa\CS511\StudyOnlineApp\StudyOnlineApp\obj\Debug\StudyOnlineApp.pdb
+D:\Chinh_Khoa\CS511\StudyOnlineApp\StudyOnlineApp\obj\Debug\StudyOnlineApp.frFirstPage.resources
