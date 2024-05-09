@@ -21,4 +21,4 @@
 * Phan Thanh Đăng - Email: 22520193@gm.uit.edu.vn
 * Thạch Minh Hoàng - Email: 22520477@gm.uit.edu.vn
 ## Đồ án môn học
-Update...
+Study online application
